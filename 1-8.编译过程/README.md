@@ -39,14 +39,14 @@ console.log('a.js文件被加载了');
 
 AST语法分析->树形遍历，找到所有依赖
 
-index.js模块中dependencies依赖数组：['./src/b.js']
+a.js模块中dependencies依赖数组：['./src/b.js']
 
 转换后代码：
 __webpack_require('./src/b.js');
 console.log('a.js文件被加载了');
 
 记录：
-模块id：./src/b.js
+模块id：./src/a.js
 代码：
 __webpack_require('./src/b.js');
 console.log('a.js文件被加载了');
@@ -58,6 +58,10 @@ console.log('b.js文件被加载了');
 
 转换后代码：
 console.log('b.js文件被加载了');
+
+ST语法分析->树形遍历，找到所有依赖
+b.js模块中dependencies依赖数组：[]
+
 
 记录：
 模块id：./src/b.js
