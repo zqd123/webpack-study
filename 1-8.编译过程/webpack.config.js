@@ -1,5 +1,4 @@
 module.exports = {
-    mode: 'production',
-    entry: {main:'./src/index.js',other:'./src/c.js'},
-    
-    }
+  mode: "production",
+  entry: "./src/index.js",
+};
