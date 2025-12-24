@@ -1,1 +1,0 @@
-{"version":3,"file":"main.06211.js","mappings":";;;;AAAA;AACA;AACA;AACA","sources":["webpack://study/./src/index.js"],"sourcesContent":["// const src = require('./assets/webpack.png')\n// const img = document.createElement('img')\n// img.src = src\n// document.body.appendChild(img)\n"],"names":[],"ignoreList":[],"sourceRoot":""}
