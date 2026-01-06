@@ -1,0 +1,18 @@
+{
+  "name": "study",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test:dev": "webpack --env development",
+    "test:prod": "webpack --env production",
+    "dev": "webpack --config webpack.dev.js",
+    "prod": "webpack --config webpack.pro.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "webpack": "^5.104.1",
+    "webpack-cli": "^6.0.1"
+  }
+}
