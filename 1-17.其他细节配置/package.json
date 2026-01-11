@@ -1,0 +1,17 @@
+{
+  "name": "study",
+  "version": "1.0.0",
+  "description": "context: path.resolve(__dirname, 'app') 该配置会影响入口和loaders的解析，入口和loaders的相对路径会以context的配置作为基准路径，这样，你的配置会独立于CWD（current working directory当前执行路径）。",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.7.1",
+    "loadsh": "^0.0.4",
+    "webpack": "^5.104.1",
+    "webpack-cli": "^6.0.1"
+  }
+}
