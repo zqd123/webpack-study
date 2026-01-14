@@ -22,6 +22,9 @@ module.exports = {
         {
           from: "./public",
           to: "./",
+          globOptions: {
+            ignore: ["**/index.html"],
+          },// 忽略的文件,解决控制台报错：Multiple assets emit different content to the same filename index.html
         },
       ],
     }),
