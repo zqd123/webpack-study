@@ -38,8 +38,11 @@ module.exports = {
     //     changeOrigin: true,//更改请求头中的Host和Origin为target
     //   },
     // },
-    stats:{//控制台输出信息和webpack中的stats配置类似
-      modules: false,
-    }
+    devMiddleware: {
+      stats:{//控制台输出信息和webpack中的stats配置类似
+        modules: false,
+      }
+    },
+    
   },
 };

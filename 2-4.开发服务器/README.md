@@ -26,6 +26,6 @@ https://www.webpackjs.com/configuration/dev-server/
 常见配置有：
   - port：配置监听端口
   - proxy：配置代理，常用于跨域访问。
-  - stats：配置控制台输出内容
+  - stats：配置控制台输出内容(webpack-dev-server v4已废弃此配置项，移到了devMiddleware中)
   - open：启动时自动打开浏览器
 
