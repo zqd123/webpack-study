@@ -11,7 +11,7 @@ module.exports = {
   output: {
     path: __dirname + "/dist",
     filename: "scripts/[name].[chunkhash:5].js",
-    // publicPath: "/ ",
+    publicPath: "/",//静态资源引用的根路径
   },
   module: {
     rules: [
@@ -37,8 +37,10 @@ module.exports = {
   ],
   devServer: {
     port: 8080,
-    // devMiddleware: {
-    //   publicPath: "/html/",
-    // },
+    open: true,
+    devMiddleware: {
+      writeToDisk: true,
+      index: "html/index.html",//指定默认打开的文件(根据HtmlWebpackPlugin的filename配置)
+    },
   },
 };
