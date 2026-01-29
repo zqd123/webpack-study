@@ -11,7 +11,7 @@ new webpack.DefinePlugin({});// webpack.插件名(options)
 const webpack = require('webpack');
 new webpack.DefinePlugin({
     PI: `Math.PI`, // PI = Math.PI
-    VERSION: `"v1.0.0"` // VERSION = "v1.0.0"
+    VERSION: `"v1.0.0"`, // VERSION = "v1.0.0"
     DOMAIN: JSON.stringify('http://www.example.com'), // DOMAIN = "http://www.example.com"
 }) 
 ```
@@ -25,7 +25,7 @@ new webpack.BannerPlugin({
     Copyright (c) ${new Date().getFullYear()}
     author: xxx
     license: MIT
-    `,
+    `
 })
 ```
 

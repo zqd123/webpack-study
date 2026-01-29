@@ -1,8 +1,10 @@
-import png from "./assets/snail.jpg";
-console.log(123);
+// console.log('PI:', PI);
+// console.log('VERSION:', VERSION);
+// console.log('DOMAIN:', DOMAIN);
 
-console.log(png);
+// import $ from 'jquery';
+// import _ from 'lodash';
 
-const img = document.createElement("img");
-img.src = png;
-document.body.appendChild(img);
+const r1 = $('#item');
+const r2 = _.drop([1, 2, 3, 4],2);
+console.log(r1, r2);
